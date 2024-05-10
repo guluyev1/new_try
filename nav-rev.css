@@ -1,0 +1,141 @@
+@media (max-width: 720px) {
+    .l-im-tl {
+        height: 40px;
+        margin-top: 12px;
+        margin-left: 2px;
+    }
+
+    .r-img-ban {
+        width: 295px;
+    }
+
+    .r-img-ban-box {
+        /* margin: 0px; */
+    }
+
+    .cont-sub-box {
+        margin-left: 0px;
+    }
+
+    .r-menu {
+        display: none;
+    }
+
+    .l-img-girl{
+        width: 280px;
+    }
+
+    .sec-2-bot-3-box-cont{
+        flex-wrap: wrap;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+
+/* <!-- section-(5)start --> */
+
+    .s5db2-bx4-rt{
+    margin: 4rem 0rem;
+    width: 80%;
+    }
+
+    /* <!-- section-(5)end --> */
+
+
+
+    /* <!-- section-(6)start --> */
+    .s6-mbx{
+        margin: 4rem 0rem;
+    }
+    
+    .s6mbx-rtxtBx{
+        margin: 0;
+    }
+
+    .s6mbx-rtxtBx{
+        justify-content: center;
+    }
+
+    .s6-rTbx-p1txt{
+        text-align: center;
+    }
+
+    .sec6-rt-subBx{
+        width: 80%;
+    }
+
+    .s6-limgBx-subBx{
+        margin: 0rem 0;
+    }
+
+    
+    /* <!-- section-(6)end --> */
+
+
+    /* <!-- section-(8)start --> */
+    .s8brb-Rbx-img-rhs img{
+        width: 342px;
+    }
+
+    .s8-BRBx{
+        flex-direction: column-reverse;
+    }
+
+    .s8bl1-3BX{
+        align-items: center;
+        width: 90%;
+    }
+
+    .s83Bx-Htxt{
+        text-align: center;
+        margin-top: .1rem;
+    }
+
+    .s83Bx-Ptxt{
+        margin-top: .1rem;
+        text-align: center;
+    }
+
+    /* <!-- section-(8)end --> */
+    
+    
+    
+    /* <!-- section-(9)end --> */
+    .s9-lr-box-cont{
+        flex-direction: column;
+    }
+    
+    .s8-dv-lhsBx{
+        flex-direction: column;
+    }
+
+    .s8rhs-PtxtPera{
+        padding-right: 0;
+    }
+
+    .s9-float-img{
+        top: -230px;
+    }
+    
+    /* <!-- section-(9)end --> */
+    
+    
+    /* <!-- section-(10[]footer)end --> */
+    .foot-sec-10-rt{
+        width: 90%;
+    }
+
+    .foot-items-BX{
+        width: 100%;
+    }
+    /* <!-- section-(10[]footer)end --> */
+}
+
+@media (max-width: 760px) {
+     /* <!-- section-(6)start --> */
+    .s6-bBx-4Bx-Cont{
+        flex-direction: column;
+    }
+
+     /* <!-- section-(6)end --> */

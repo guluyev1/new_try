@@ -1,0 +1,272 @@
+ .dashed-box{
+    height: 180px!important;
+    width: 10px!important;
+    border-right: 2px dashed #ffdb27!important;
+}
+
+.socl-md-lnk-icn{
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+.socl-md-lnk-icn:hover{
+    color: #fff;
+}
+
+/* foot background */
+.foot-banner-bgrnd{
+    background: url("images/SKYLINE_FOOTER_lighter-04.png");
+    margin-top: 6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+/* <!-- section-(2)start --> */
+
+.translate-effect{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px,
+				  0px 0px 50px#4f4f4f,
+				rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	transition-property: all;
+	transition-timing-function: ease-out;
+	transition-duration: .2s;
+	position: relative;
+	bottom: 0px;
+}
+
+.translate-effect:hover{
+	position: relative;
+	bottom: 20px;
+	box-shadow: none;
+}
+
+
+.hidden-cir-effect{
+	transition-property: all;
+	transition-timing-function: ease-in;
+	transition-duration: .8s;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	margin-bottom: 100px;
+}
+
+
+
+.sec-inner-box{
+			box-shadow:  0px 0px #4b505e70,
+            inset 0px 0px 0px #4b505e67,
+            inset 0px 0px 10px #4b505e4b;
+}
+
+.se-5cards-effect{
+	transition-property: all;
+	transition-timing-function: ease-in;
+	transition-duration: .3s;	
+}
+
+.se-5cards-effect{
+	transform: scale(1.1);
+}
+
+.sec-5-outer-circle{
+	transition-property: all;
+	transition-timing-function: ease-in;
+	transition-duration: .3s;
+}
+
+.sec-5-inner-circle{
+	transition-property: all;
+	transition-timing-function: ease-in;
+	transition-duration: .3s;
+}
+
+.se-5cards-effect:hover .sec-5-outer-circle{
+	background-color: #ffd861;
+	outline-color: #fff;
+}
+
+.se-5cards-effect:hover .sec-5-inner-circle{
+	background-color: #fff1c6;
+}
+
+.se-5cards-effect:hover .hidden-cir-effect{
+	padding: 1000px;
+}
+
+
+
+
+.shadow-md-effect{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	padding: 50px 0px;
+	border-radius: 10px;
+}
+
+.shadow-md-effect:hover{
+	box-shadow: none;
+}
+
+/**/
+.s9-float-img{
+    position: absolute;
+    top: -150px;
+    align-self: center;
+    margin: auto;
+    animation: sec8imgfloat;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sec8imgfloat {
+    0%{
+        transform: translateY(0px);
+    }
+    
+    50%{
+        transform: translateY(15px);
+    }
+    
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+.check{
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2),
+				0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#checkHome:checked .nav-hide{
+	background-color: pink;
+	height: 300px;
+}
+
+.cunsul-3bx-icon-scale{
+	animation-name: cun-3bx-scl;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes cun-3bx-scl{
+	0%{
+		transform: scale(1);
+	}
+	
+	50%{
+		transform: scale(1.2);
+	}
+	
+}
+
+.formCont{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #afafaf;
+	color: #555;
+}
+
+
+ .form-icon-effec:hover{
+	 color: #1a2942;
+	 background-color: #fff;
+ }
+
+
+/* fiveCircleContainers*/
+.fiveCircleContainers{
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;	
+}
+
+.fiveCircleContainers:hover{
+	margin-right: 40px;
+	transform: translateY(-40px);
+}
+
+
+/* portfolio-four-card-scale-effect*/
+.portfolio-four-card-scale-effect{
+	transition-property: all;
+	transition-duration: .1s;
+	transition-timing-function: ease-out;
+}
+
+.portfolio-four-card-scale-effect:hover{
+	transform: scale(1.1);
+	
+}
+
+
+.background-cover-img{
+	background: url("images/building-blocks-bg.jpg");
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.foot-bg-cover-banner{
+	position: absolute;
+	bottom: 0;
+	background-image: url('images/SKYLINE_FOOTER_lighter-04.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	pointer-events: none;
+	width: 100%;
+	height: 500px;
+	bottom: 20px !important;
+}
+
+ .social-li:hover .social-media-hover-efffext{
+	 background-color: yellow!important;
+	 color: #fff!important;
+ }
+
+.shadow-custom{
+	box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+					  7px 7px 7px 0px rgba(0,0,0,0.1),
+					  4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.home-page-bx-shdow-effec1{
+	animation-name: bxshadoweffect1;
+	animation-iteration-count: infinite;
+	animation-duration: .7s;
+	animation-delay: 0s;
+	animation-timing-function: linear;
+}
+
+@keyframes bxshadoweffect1{
+	
+	0% {
+  		box-shadow: 0 0 0 0 rgba(163, 177, 198, 0.3), 
+  					0 0 0 1em rgba(163, 177, 198, 0.3), 
+  					0 0 0 3em rgba(163, 177, 198, 0.03), 
+			  		0 0 0 5em rgba(163, 177, 198, 0.03);
+	}
+
+	100% {
+  		box-shadow: 0 0 0 1em rgba(163, 177, 198, 0.3),
+  		 			0 0 0 3em rgba(163, 177, 198, 0.03),
+  		 			0 0 0 5em rgba(163, 177, 198, 0.03),
+  		  			0 0 0 8em rgba(163, 177, 198, 0.02);
+	}
+	
+}
+
+
